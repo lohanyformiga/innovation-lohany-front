@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+.photo_lohany {
+   border: 1px solid black;
+   border-radius: 100%;   
+   width: 120px;
+   height: 120px;
+}
+
+#title, subtitle, post_title {
+    color: rgb(243, 34, 79);
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+   text-decoration: line-through;
+   color: cadetblue; 
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    width: 900px;
+    height: 400;
+}
+
+.post {
+    background-color: rgb(247, 247, 247);
+    padding: 15px;
+    border: 2px solid crimson;
+    margin-bottom: 15px;
+    border-radius: 5px 5px;
+}
+
+.post_content {
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.post_image {
+    margin-bottom: 15px;
+}
+
+.constact_list {
+    list-style-type: none;
+    padding-left: 15px;
+
+}
+
+.constact_list li a {
+  text-decoration: none;
+}
